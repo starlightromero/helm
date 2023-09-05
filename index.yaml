@@ -3,9 +3,9 @@ entries:
   gatekeeper-library:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-09-05T07:06:23.730902-07:00"
+    created: "2023-09-05T13:57:18.481451-07:00"
     description: A Helm chart for Gatekeeper Library
-    digest: a36d53ccaf13d397e844c79d9cd3cb10c79c6802cd49c846f3099d23d784271d
+    digest: 21272dcae707419560f5ddb2c5d021cd2a6abaec0147c9988f5b713578b7663c
     home: https://open-policy-agent.github.io/gatekeeper-library
     icon: https://open-policy-agent.github.io/gatekeeper/website/img/logo.svg
     keywords:
@@ -16,4 +16,4 @@ entries:
     urls:
     - gatekeeper-library-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-05T07:06:23.72549-07:00"
+generated: "2023-09-05T13:57:18.478112-07:00"
