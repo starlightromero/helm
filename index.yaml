@@ -1,35 +1,35 @@
 apiVersion: v1
 entries:
-  gatekeeper-library:
+  gatekeeper-library-constraint-templates:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-09-06T19:52:44.971208-07:00"
-    description: A Helm chart for Gatekeeper Library
-    digest: 6bef6ae5b0f89cd0b1d8449a221a8cd3523c6096febd43e310f745b81a61a870
+    created: "2023-09-07T10:23:26.577076-07:00"
+    description: A Helm chart for Gatekeeper Library Constraint Templates
+    digest: c3cce37e7839f8b7f75de22e45cae0dcbd1a3ae71a66caedf11b0ff446ed7724
     home: https://open-policy-agent.github.io/gatekeeper-library
     icon: https://open-policy-agent.github.io/gatekeeper/website/img/logo.svg
     keywords:
     - open policy agent
-    name: gatekeeper-library
+    name: gatekeeper-library-constraint-templates
     sources:
     - https://github.com/open-policy-agent/gatekeeper-library.git
     urls:
-    - gatekeeper-library-1.0.0.tgz
+    - gatekeeper-library-constraint-templates-1.0.0.tgz
     version: 1.0.0
-  gatekeeper-library-crds:
+  gatekeeper-library-constraints:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-09-06T19:52:44.974439-07:00"
-    description: A Helm chart for Gatekeeper Library CRDs
-    digest: ac26d35a5fa3b0ecc6e7e71bb85aa25a4e647ed990d14125f58872c4639aecd4
+    created: "2023-09-07T10:23:26.578557-07:00"
+    description: A Helm chart for Gatekeeper Library Constraints
+    digest: 22d1592985f157c320b9c8ff0b5e52b7e2f18223f6a6ae269b12db60e79fc0d6
     home: https://open-policy-agent.github.io/gatekeeper-library
     icon: https://open-policy-agent.github.io/gatekeeper/website/img/logo.svg
     keywords:
     - open policy agent
-    name: gatekeeper-library-crds
+    name: gatekeeper-library-constraints
     sources:
     - https://github.com/open-policy-agent/gatekeeper-library.git
     urls:
-    - gatekeeper-library-crds-1.0.0.tgz
+    - gatekeeper-library-constraints-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-06T19:52:44.964485-07:00"
+generated: "2023-09-07T10:23:26.574617-07:00"
