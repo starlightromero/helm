@@ -3,7 +3,7 @@ entries:
   gatekeeper-library-constraint-templates:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-09-07T10:23:26.577076-07:00"
+    created: "2023-09-20T14:13:01.592244-07:00"
     description: A Helm chart for Gatekeeper Library Constraint Templates
     digest: c3cce37e7839f8b7f75de22e45cae0dcbd1a3ae71a66caedf11b0ff446ed7724
     home: https://open-policy-agent.github.io/gatekeeper-library
@@ -19,7 +19,7 @@ entries:
   gatekeeper-library-constraints:
   - apiVersion: v1
     appVersion: v1.0.0
-    created: "2023-09-07T10:23:26.578557-07:00"
+    created: "2023-09-20T14:13:01.593807-07:00"
     description: A Helm chart for Gatekeeper Library Constraints
     digest: 22d1592985f157c320b9c8ff0b5e52b7e2f18223f6a6ae269b12db60e79fc0d6
     home: https://open-policy-agent.github.io/gatekeeper-library
@@ -32,4 +32,48 @@ entries:
     urls:
     - gatekeeper-library-constraints-1.0.0.tgz
     version: 1.0.0
-generated: "2023-09-07T10:23:26.574617-07:00"
+  rstudio-connect:
+  - annotations:
+      artifacthub.io/images: |
+        - name: rstudio-connect
+          image: rstudio/rstudio-connect:ubuntu2204-2023.09.0
+      artifacthub.io/license: MIT
+      artifacthub.io/links: |
+        - name: Docker Images
+          url: https://github.com/rstudio/rstudio-docker-products
+        - name: RStudio Community
+          url: https://community.rstudio.com/c/r-admin/5
+        - name: About Connect
+          url: https://www.rstudio.com/products/connect/
+        - name: About RStudio Team
+          url: https://www.rstudio.com/products/team/
+    apiVersion: v2
+    appVersion: 2023.09.0
+    created: "2023-09-20T14:13:01.596973-07:00"
+    dependencies:
+    - name: rstudio-library
+      repository: file://../rstudio-library
+      version: 0.1.26
+    description: Official Helm chart for RStudio Connect
+    digest: 18edebd889e7eeb6f3f67925e453d62dd5077bc5a349347d2154289dc4ab5923
+    home: https://www.rstudio.com
+    icon: https://rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png
+    keywords:
+    - data science
+    - machine learning
+    - r
+    - rstats
+    - python
+    - deploy
+    - rstudio
+    maintainers:
+    - email: docker@rstudio.com
+      name: sol-eng
+      url: https://github.com/sol-eng
+    name: rstudio-connect
+    sources:
+    - https://github.com/rstudio/helm
+    urls:
+    - rstudio-connect-0.5.7.tgz
+    version: 0.5.7
+generated: "2023-09-20T14:13:01.589448-07:00"
